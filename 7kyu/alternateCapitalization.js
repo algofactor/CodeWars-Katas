@@ -4,13 +4,17 @@
 // Pseudocode => first split the string into an array, then create two variables, the first variable calls the map method on the split string and capitalises each even-indexed element and leaves the other in their original cases while the second variable calls the map method on the same split string and then capitalises the odd-indexed elements in this case while leaving the even ones in their original cases, after which each mapped result is joined and concatenated into a single array, then return the result
 
 capitalize = (s) => {
+    // Split the string into an array
     const split = s.split('');
 
+    // Capitalize all even-indexed characters
     const evens = split.map((e,i) => !(i%2) ? e.toUpperCase() : e).join('');
 
+    // Capitalize all odd-indexed characters
     const odds = split.map((e,i) => (i%2) ? e.toUpperCase() : e).join('');
 
+    // Return the result in an array
     console.log([evens, odds]);
 }
 
-capitalize("abcdef")
+capitalize("abcdef");
