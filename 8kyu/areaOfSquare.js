@@ -8,6 +8,6 @@
 const squareArea = A => {
     const r = (A * 2)/Math.PI;
     const res = (r*r).toFixed(2);
-    console.log(Number(res));
+    
     return Number(res);
 }
