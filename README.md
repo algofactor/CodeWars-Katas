@@ -2,7 +2,7 @@
 
 This repository currently contains over 400 completed codewars challenges(kata) categorized by kyu level. Currently ranked in the top 5% of JavaScript users.
 
-<img src='https://danielezekiel.me/codewars-challenges/blob/master/codewars.png' alt='codewars profile'>
+<img src='https://github.com/Daniel-Ezekiel/CodeWars-Katas/blob/main/codewars.png' alt='codewars profile'>
 
 ## Technology Used
 
